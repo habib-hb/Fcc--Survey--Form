@@ -1,0 +1,30 @@
+body{
+    background-color: #111111;
+    color:#f5f5f5;
+  }
+  #title{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #description{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  input{
+    margin-bottom: 5px;
+  }
+  #submit{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+  }
+  p{
+    margin: 5 0;
+  }
+
+  
+  

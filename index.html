@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <title>A Casual Form Submission</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="styles.css">
+  </head>
+ <body>
+
+<h1 id="title">A Casual Form Submission</h1>
+
+<p id="description">Building This Form Just For Fun :)</p>
+
+<form id="survey-form">
+
+<fieldset>
+
+<legend>Some Things About You</legend>
+
+  <label id="name-label">Your Cool Nick Name: <p><input id="name" type="text" required placeholder="BiGBANG RiDER..."></p></label>
+
+  <label id="email-label">An Imaginary Email That You Wish You Had: <p><input id="email" type="email" required placeholder="whatsup@chilling.com..."></p></label>
+
+<label id="number-label">Just Lie About Your Age (I Won't Mind): <p><input id="number" type="number" min=16 max=251 placeholder=251></p></label>
+ 
+ <label id="select-label">
+   Who Is Your Favorite SuperHero...
+<p><select id="dropdown">
+  <option>Select</option>
+  <option>Cockroach-Man</option>
+   <option>Sub-Man</option>
+  <option>Bee-Man</option>
+   <option>Slap-Man</option>
+  <option>Potty-Man</option>
+
+</select><p><label>
+
+
+</fieldset>
+
+<fieldset>
+
+  <legend>What Is Your Most Favorite Cartoon Series: </legend>
+
+<label id="radio-label">
+
+<p><input type="radio" name="cartoon-series" value="Rick And Morty"> Rick And Morty</p>
+
+<p><input type="radio" name="cartoon-series"  value="Oggy And The Cockroaches"> Oggy And The Cockroaches</p>
+
+<p><input type="radio" name="cartoon-series"  value="Ben-10"> Ben-10</p>
+
+<p><input type="radio" name="cartoon-series"  value="Tom And Jerry"> Tom And Jerry</p>
+</label>
+
+</fieldset>
+
+<fieldset>
+
+  <legend>Things You Hate The Most</legend>
+
+<label><p><input type="checkbox" value="school">Going To School On A Rainy Day</p></label>
+
+<label><p><input type="checkbox" value="game-progress">Having The Progress Of A Game Erased!</p></label>
+
+<label><p><input type="checkbox" value="karela">Some Karela At Breakfast</p></label>
+
+<label><p><input type="checkbox" value="dates">Memorizing Birth/Death Dates Of People In The Books</p></label>
+
+</fieldset>
+
+<label>
+  <p>Some Lines About A Real Incident That Makes You Cringe When You Remember It: </p>
+<textarea></textarea>
+</label>
+
+<input id="submit" type="submit" value="Submit">
+
+  </form>
+
+
+   </body>
+  </html>
